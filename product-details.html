@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Yook Dashboard</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" type="image/png" href="#"><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/styleTienda.css">
+
+</head>
+
+<body>
+<!-- partial:index.partial.html -->
+<div class="grid">
+  <header class="header">
+    <i class="fas fa-bars header__menu"></i>
+    <div class="header__search">
+      <input class="header__input" placeholder="Buscar..." />
+    </div>
+    <div class="header__avatar">
+      <div class="dropdown">
+        <ul class="dropdown__list">
+          <li class="dropdown__list-item">
+            <span class="dropdown__icon"><i class="far fa-user"></i></span>
+            <span class="dropdown__title">Mi Perfil</span>
+          </li>
+          <li class="dropdown__list-item">
+            <span class="dropdown__icon"><i class="fas fa-sign-out-alt"></i></span>
+            <span class="dropdown__title">Cerrar Sesión</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <aside class="sidenav">
+    <div class="sidenav__brand">
+     
+      <a class="sidenav__brand-link" href="index.html">YOOK</a>
+      <i class="fas fa-times sidenav__brand-close"></i>
+    </div>
+    <div class="sidenav__profile">
+      <div class="sidenav__profile-avatar"></div>
+      <div class="sidenav__profile-title text-light">Romina</div>
+    </div>
+    <div class="row row--align-v-center row--align-h-center">
+      <ul class="navList">
+        <li class="navList__heading">Mi Perfil<i class="far fa-user"></i></li>
+          <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-cog"></i></i></span>
+            <span class="navList__subheading-title">Configuración</span>
+          </div>
+          <ul class="subList subList--hidden">
+            <li class="subList__item"> <a href="infoUsuario.html">  Actualizar Información </a></li>
+            <li class="subList__item">Cambiar Foto</li>
+            <li class="subList__item">Contrato</li>
+            <li class="subList__item">Contraseña</li>
+          </ul>
+        </li>
+        <li class="navList__heading">Navegación</li>
+          <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-home"></i></span>
+            <a href="index.html" class="navList__subheading-title">Dashboard</a>
+          </div>
+        </li>
+         <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-receipt"></i></span>
+            <a href="residual.html" class="navList__subheading-title">Residual</a>
+          </div>
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="far fa-calendar-alt"></i></span>
+            <a href="renovaciones.html" class="navList__subheading-title">Mis Renovaciones</a>
+          </div>
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-money-bill"></i></span>
+            <a href="ingresos.html" class="navList__subheading-title">Mis Ingresos</a>
+          </div>
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-handshake"></i></span>
+            <a href="consultoria.html" class="navList__subheading-title">Consultoria</a>
+          </div>
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-shopping-cart"></i></span>
+            <a href="tienda.html" class="navList__subheading-title">Tienda</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="main-header">
+      <div class="main-header__intro-wrapper">
+        <div class="main-header__welcome">
+          <div class="main-header__welcome-title text-light">Bienvenida, <strong>Romina</strong></div>
+          <div class="main-header__welcome-subtitle text-light">Cómo estás hoy?</div>
+        </div>
+        <div class="quickview">
+          <div class="quickview__item">
+            <div class="quickview__item-total">14</div>
+            <div class="quickview__item-description">
+              <i class="far fa-user"></i>
+              <span class="text-light">Afiliados</span>
+            </div>
+          </div>
+          <div class="quickview__item">
+            <div class="quickview__item-total">4</div>
+            <div class="quickview__item-description">
+              <i class="far fa-user"></i>
+              <span class="text-light">Recientes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-overview">
+      <div class="overviewCard">
+        <div class="overviewCard-icon overviewCard-icon--document">
+          <i class="far fa-user"></i>
+         
+        </div>
+        <div class="overviewCard-description">
+          <h3 class="overviewCard-title text-light">Mis <strong style="font-weight: bold;">Afiliados</strong></h3>
+          <p class="overviewCard-subtitle">14</p>
+        </div>
+      </div>
+      <div class="overviewCard">
+        <div class="overviewCard-icon overviewCard-icon--calendar">
+          <i class="fas fa-coins"></i>
+        </div>
+        <div class="overviewCard-description">
+          <h3 class="overviewCard-title text-light">Mis <strong style="font-weight: bold;">Puntos</strong></h3>
+          <p class="overviewCard-subtitle">50</p>
+        </div>
+      </div>
+      <div class="overviewCard">
+        <div class="overviewCard-icon overviewCard-icon--mail">
+          <i class="fas fa-money-bill"></i>
+        </div>
+        <div class="overviewCard-description">
+          <h3 class="overviewCard-title text-light">Mis <strong style="font-weight: bold;">Ingresos</strong></h3>
+          <p class="overviewCard-subtitle">100</p>
+        </div>
+      </div>
+     
+    </div> <!-- /.main__overview -->
+
+    <div class="main__cardstienda">
+
+        <div class="headertienda">
+            <div class="containertienda">
+               <div class="navbartienda">
+                   <nav class="navtienda">
+                    <ul id="MenuItems">
+                      <li><a href="tienda.html">Productos</a></li>
+                  </ul>
+                </nav>
+                   <a href="cart.html"><img src="images/shopping-cart.png" width="40px" height="40px"></a>
+                   <img src="images/shopping-cart.png" onclick="menutoggle()" class="menu-icontienda">
+               </div>
+               
+                
+            </div>
+            </div>
+    
+      <!--------------single-product--------------->
+<div class="small-container single-product">
+    <div class="rowtienda">
+        <div class="col-2tienda">
+            <img src="https://www.flaticon.es/svg/vstatic/svg/1215/1215910.svg?token=exp=1610506037~hmac=0216db1bfbacc27de487ef921978cfa8" width="100%" id="ProductImg">
+            <div class="small-img-row">
+               <div class="small-img-col">
+                   <img src="https://www.flaticon.es/svg/vstatic/svg/551/551227.svg?token=exp=1610506044~hmac=3523af88ea7493439713dea1b3184f74" class="small-img" width="100%">
+               </div>
+               <div class="small-img-col">
+                   <img src="https://www.flaticon.es/svg/vstatic/svg/551/551125.svg?token=exp=1610506546~hmac=c7d9c748a3571c2950068b01436a44c1" class="small-img" width="100%">
+               </div>
+               <div class="small-img-col">
+                   <img src="https://www.flaticon.es/svg/vstatic/svg/1076/1076102.svg?token=exp=1610506658~hmac=0f93e17874dfa62b1e5067a5a8ba4131" class="small-img" width="100%">
+               </div>
+               <div class="small-img-col">
+                   <img src="https://www.flaticon.es/svg/vstatic/svg/3043/3043788.svg?token=exp=1610506595~hmac=ff863136d590d1a11dbb9efc37b6d9a3" class="small-img" width="100%">
+               </div>
+    
+            </div>
+            
+        </div>
+        <div class="col-2tienda">   
+            <h1>Producto 1</h1>
+            <h4>50 puntos</h4>
+            
+            <select>
+               <option>Selecciona</option>
+               <option>opción 1</option>
+               <option>opción 2</option>
+               <option>opción 3</option>
+               <option>opción 4</option>
+               <option>opción 5</option>
+           </select>
+            
+            <input type="number" value="1">
+            <a href="cart.html" class="btntienda">Agregar al Carrito</a>
+            
+            <h3>DETALLES DEL PRODUCTO <i class="fa fa-indent"></i></h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, optio. Tenetur impedit aspernatur at eius odio excepturi perspiciatis. Aliquid sit accusantium, a repellendus aut tenetur, facilis et aperiam assumenda temporibus omnis consectetur officia minima magni suscipit ad laboriosam? Laboriosam nulla pariatur est minima doloribus expedita aperiam hic odio autem a?</p>
+        </div>
+    </div>
+</div>
+
+     
+     <!-------------js for toggle menu-------------->
+     
+     <script>
+         
+         var MenuItems = document.getElementById("MenuItems");
+         
+         MenuItems.style.maxHeight = "0px";
+         
+         function menutoggle()
+         {
+             if(MenuItems.style.maxHeight == "0px")
+                 {
+                     MenuItems.style.maxHeight = "200px";
+                 }else
+                 {
+                     MenuItems.style.maxHeight = "0px"
+                 } 
+         }
+
+         //-------------Produc Gallery------------
+    
+    var ProductImg = document.getElementById("ProductImg");
+    
+    var SmallImg = document.getElementsByClassName("small-img");
+       
+ 
+        SmallImg[0].onclick = function()
+        {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function()
+        {
+            ProductImg.src = SmallImg[1].src;
+        
+        }
+        SmallImg[2].onclick = function()
+        {
+            ProductImg.src = SmallImg[2].src;
+        
+        }
+        SmallImg[3].onclick = function()
+        {
+            ProductImg.src = SmallImg[3].src;
+        
+        }
+
+  //-------------End Produc Gallery------------  
+    
+         
+     </script>
+
+     
+     
+
+    </div> <!-- /.main-cards -->
+  </main>
+
+  <footer class="footer">
+    <p><span class="footer__copyright">&copy;</span> 2020</p>
+    <p>All rights reserved </i> by <a target="_blank" class="footer__signature">YOOK</a></p>
+  </footer>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+<script src='https://www.amcharts.com/lib/3/amcharts.js'></script>
+<script src='https://www.amcharts.com/lib/3/serial.js'></script>
+<script src='https://www.amcharts.com/lib/3/themes/light.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

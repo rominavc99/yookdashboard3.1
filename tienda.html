@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Yook Dashboard</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" type="image/png" href="#"><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/styleTienda.css">
+
+</head>
+
+<body>
+<!-- partial:index.partial.html -->
+<div class="grid">
+  <header class="header">
+    <i class="fas fa-bars header__menu"></i>
+    <div class="header__search">
+      <input class="header__input" placeholder="Buscar..." />
+    </div>
+    <div class="header__avatar">
+      <div class="dropdown">
+        <ul class="dropdown__list">
+          <li class="dropdown__list-item">
+            <span class="dropdown__icon"><i class="far fa-user"></i></span>
+            <span class="dropdown__title">Mi Perfil</span>
+          </li>
+          <li class="dropdown__list-item">
+            <span class="dropdown__icon"><i class="fas fa-sign-out-alt"></i></span>
+            <span class="dropdown__title">Cerrar Sesión</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <aside class="sidenav">
+    <div class="sidenav__brand">
+     
+      <a class="sidenav__brand-link" href="index.html">YOOK</a>
+      <i class="fas fa-times sidenav__brand-close"></i>
+    </div>
+    <div class="sidenav__profile">
+      <div class="sidenav__profile-avatar"></div>
+      <div class="sidenav__profile-title text-light">Romina</div>
+    </div>
+    <div class="row row--align-v-center row--align-h-center">
+      <ul class="navList">
+        <li class="navList__heading">Mi Perfil<i class="far fa-user"></i></li>
+          <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-cog"></i></i></span>
+            <span class="navList__subheading-title">Configuración</span>
+          </div>
+          <ul class="subList subList--hidden">
+            <li class="subList__item"> <a href="infoUsuario.html">  Actualizar Información </a></li>
+            <li class="subList__item">Cambiar Foto</li>
+            <li class="subList__item">Contrato</li>
+            <li class="subList__item">Contraseña</li>
+          </ul>
+        </li>
+        <li class="navList__heading">Navegación</li>
+          <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-home"></i></span>
+            <a href="index.html" class="navList__subheading-title">Dashboard</a>
+          </div>
+        </li>
+         <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-receipt"></i></span>
+            <a href="residual.html" class="navList__subheading-title">Residual</a>
+          </div>
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="far fa-calendar-alt"></i></span>
+            <a href="renovaciones.html" class="navList__subheading-title">Mis Renovaciones</a>
+          </div>
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-money-bill"></i></span>
+            <a href="ingresos.html" class="navList__subheading-title">Mis Ingresos</a>
+          </div>
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-handshake"></i></span>
+            <a href="consultoria.html" class="navList__subheading-title">Consultoria</a>
+          </div>
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="fas fa-shopping-cart"></i></span>
+            <a href="tienda.html" class="navList__subheading-title">Tienda</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="main-header">
+      <div class="main-header__intro-wrapper">
+        <div class="main-header__welcome">
+          <div class="main-header__welcome-title text-light">Bienvenida, <strong>Romina</strong></div>
+          <div class="main-header__welcome-subtitle text-light">Cómo estás hoy?</div>
+        </div>
+        <div class="quickview">
+          <div class="quickview__item">
+            <div class="quickview__item-total">14</div>
+            <div class="quickview__item-description">
+              <i class="far fa-user"></i>
+              <span class="text-light">Afiliados</span>
+            </div>
+          </div>
+          <div class="quickview__item">
+            <div class="quickview__item-total">4</div>
+            <div class="quickview__item-description">
+              <i class="far fa-user"></i>
+              <span class="text-light">Recientes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-overview">
+      <div class="overviewCard">
+        <div class="overviewCard-icon overviewCard-icon--document">
+          <i class="far fa-user"></i>
+         
+        </div>
+        <div class="overviewCard-description">
+          <h3 class="overviewCard-title text-light">Mis <strong style="font-weight: bold;">Afiliados</strong></h3>
+          <p class="overviewCard-subtitle">14</p>
+        </div>
+      </div>
+      <div class="overviewCard">
+        <div class="overviewCard-icon overviewCard-icon--calendar">
+          <i class="fas fa-coins"></i>
+        </div>
+        <div class="overviewCard-description">
+          <h3 class="overviewCard-title text-light">Mis <strong style="font-weight: bold;">Puntos</strong></h3>
+          <p class="overviewCard-subtitle">50</p>
+        </div>
+      </div>
+      <div class="overviewCard">
+        <div class="overviewCard-icon overviewCard-icon--mail">
+          <i class="fas fa-money-bill"></i>
+        </div>
+        <div class="overviewCard-description">
+          <h3 class="overviewCard-title text-light">Mis <strong style="font-weight: bold;">Ingresos</strong></h3>
+          <p class="overviewCard-subtitle">100</p>
+        </div>
+      </div>
+     
+    </div> <!-- /.main__overview -->
+
+    <div class="main__cardstienda">
+
+        <div class="headertienda">
+            <div class="containertienda">
+               <div class="navbartienda">
+                   <nav class="navtienda">
+                    <ul id="MenuItems">
+                      <li><a href="tienda.html">Productos</a></li>
+                  </ul>
+                </nav>
+                   <a href="cart.html"><img src="images/shopping-cart.png" width="40px" height="40px"></a>
+                   <img src="images/shopping-cart.png" onclick="menutoggle()" class="menu-icontienda">
+               </div>
+                <div class="rowtienda">
+                     <div class="col-2tienda">
+     
+                         <h1 style="color: white; font-size: 55px;">Tanichi<br>Yook!</h1>
+                         <p>Compra con nosotros los mejores productos.<br> Exclusivos para nuestros miembros!</p>
+                         <a href="3" class="btntienda" style="color: aliceblue;">Obtener más puntos</a>
+                     </div>
+                     <div class="col-2tienda">
+                         <img src="https://raw.githubusercontent.com/rominavc99/YookDashboard3.0/main/pngaaa.com-1233704.png">
+                     </div>
+                    
+                </div>
+                
+            </div>
+            </div>
+    
+            
+     <!-------------- Products -------------->
+       
+       
+       <div class="small-container">
+             <h2 class="titletienda">Nuestros Productos</h2>
+                <div class="rowtienda">
+                   
+                    <div class="col-4">
+                        <img src="https://www.flaticon.es/svg/static/icons/svg/594/594846.svg">
+                        <h4><a style="color: black;" href="product-details.html">Producto 1</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>70 puntos</p>
+                    </div> 
+                    <div class="col-4">
+                        <img src="https://www.flaticon.es/svg/static/icons/svg/594/594846.svg">
+                        <h4><a style="color: black;" href="product-details.html">Producto 2</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>40 puntos</p>
+                    </div> 
+                     <div class="col-4">
+                        <img src="https://www.flaticon.es/svg/static/icons/svg/594/594846.svg">
+                        <h4><a style="color: black;" href="product-details.html">Producto 3</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50 puntos</p>
+                    </div> 
+                    <div class="col-4">
+                        <img src="https://www.flaticon.es/svg/static/icons/svg/594/594846.svg">
+                        <h4><a style="color: black;" href="product-details.html">Producto 4</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50 puntos</p>
+                    </div> 
+                    <div class="col-4">
+                        <img src="https://www.flaticon.es/svg/static/icons/svg/594/594846.svg">
+                        <h4><a style="color: black;" href="product-details.html">Producto 5</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50 puntos</p>
+                    </div> 
+                    <div class="col-4">
+                        <img src="https://www.flaticon.es/svg/static/icons/svg/594/594846.svg">
+                        <h4><a style="color: black;" href="product-details.html">Producto 6</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50 puntos</p>
+                    </div> 
+                </div>
+             
+                </div>
+            </div>
+            
+   
+         
+     </div>
+     
+     
+     
+     <!-------------js for toggle menu-------------->
+     
+     <script>
+         
+         var MenuItems = document.getElementById("MenuItems");
+         
+         MenuItems.style.maxHeight = "0px";
+         
+         function menutoggle()
+         {
+             if(MenuItems.style.maxHeight == "0px")
+                 {
+                     MenuItems.style.maxHeight = "200px";
+                 }else
+                 {
+                     MenuItems.style.maxHeight = "0px"
+                 } 
+         }
+         
+     </script>
+     
+
+    </div> <!-- /.main-cards -->
+  </main>
+
+  <footer class="footer">
+    <p><span class="footer__copyright">&copy;</span> 2020</p>
+    <p>All rights reserved </i> by <a target="_blank" class="footer__signature">YOOK</a></p>
+  </footer>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+<script src='https://www.amcharts.com/lib/3/amcharts.js'></script>
+<script src='https://www.amcharts.com/lib/3/serial.js'></script>
+<script src='https://www.amcharts.com/lib/3/themes/light.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
