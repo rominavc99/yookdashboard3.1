@@ -17,13 +17,14 @@ a:link, a:visited, a:active {
   font-weight: bold;
 }
 
-.row {
+.row1 {
   display: flex;
+
 }
-.row--align-v-center {
+.row1--align-v-center {
   align-items: center;
 }
-.row--align-h-center {
+.row1--align-h-center {
   justify-content: center;
 }
 
@@ -797,9 +798,8 @@ a:visited {color: #ffffff;} /* visited link */
 #contact {
   background: #F9F9F9;
   padding: 25px;
-  box-sizing: border-box;
-  margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  display: block;
 
 }
 
