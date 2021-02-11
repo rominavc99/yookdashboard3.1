@@ -654,6 +654,24 @@ margin-left: calc(var(--bs-gutter-x)/ -2);
   transition: transform .3s ease;
 }
 
+.document__imgTanichi {
+  width: 175px;
+  height: 175px;
+  background-image: url("images/taniichi@4x.png");
+  background-size: cover;
+  
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+.document__imgConsultoria {
+  width: 175px;
+  height: 175px;
+  background-image: url("images/consultoria@4x.png");
+  background-size: cover;
+  
+  cursor: pointer;
+  transition: transform .3s ease;
+}
 .document__img1 {
   width: 95px;
   height: 95px;
