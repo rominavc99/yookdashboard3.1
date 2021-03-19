@@ -996,13 +996,15 @@ fieldset {
   margin-top: 70px;
 }
 .col-2tienda{
-  flex-basis: 50%;
+  flex-basis: 45%;
   min-width: 300px;
+
 }
 
 .col-2tienda img{
   max-width: 100%;
   padding: 50px 0;
+
 }
 .col-2tienda h1{
   font-size: 50px;
