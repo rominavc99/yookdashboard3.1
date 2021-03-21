@@ -764,6 +764,56 @@ a:visited {color: #ffffff;} /* visited link */
   padding-bottom: 25px;
 }
 
+/* ESTILOS TABLAS */ 
+
+.h1table{
+  font-size: 30px;
+  color:  rgb(43, 43, 43);
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(48, 55, 148, 0.562);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(20, 28, 148, 0.3);
+  font-size: 50px;
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color:  rgb(43, 43, 43);
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: rgb(43, 43, 43);
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+section{
+  margin: 50px;
+}
+
+
+/* Alternativa Estilo menue */ 
+
+/*
 @media only screen and (max-width: 300px) {
   .grid {
     display: grid;
@@ -795,7 +845,12 @@ a:visited {color: #ffffff;} /* visited link */
     width: 40px;
     height: 40px;
   }
+  td{
+    font-size: 30px;
+  }
 }
+*/
+
 @media only screen and (min-width: 65.625em) {
   .main__cards {
     column-count: 2;
@@ -807,6 +862,8 @@ a:visited {color: #ffffff;} /* visited link */
   .main-header__welcome {
     align-items: flex-start;
   }
+
+  
 }
 
 
@@ -940,51 +997,7 @@ fieldset {
 }
 
 
-/* ESTILOS TABLAS */ 
 
-.h1table{
-  font-size: 30px;
-  color:  rgb(43, 43, 43);
-  text-transform: uppercase;
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 15px;
-}
-table{
-  width:100%;
-  table-layout: fixed;
-}
-.tbl-header{
-  background-color: rgba(48, 55, 148, 0.562);
- }
-.tbl-content{
-  height:300px;
-  overflow-x:auto;
-  margin-top: 0px;
-  border: 1px solid rgba(20, 28, 148, 0.3);
-  font-size: 50px;
-}
-th{
-  padding: 20px 15px;
-  text-align: left;
-  font-weight: 500;
-  font-size: 12px;
-  color:  rgb(43, 43, 43);
-  text-transform: uppercase;
-}
-td{
-  padding: 15px;
-  text-align: left;
-  vertical-align:middle;
-  font-weight: 300;
-  font-size: 12px;
-  color: rgb(43, 43, 43);
-  border-bottom: solid 1px rgba(255,255,255,0.1);
-}
-
-section{
-  margin: 50px;
-}
 
 /* ESTILOS TIENDA */ 
 
@@ -1291,6 +1304,16 @@ input:focus{
       font-size: 26px;
       line-height: 22px;
   }
+
+  td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 32px;
+    color: rgb(43, 43, 43);
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }
 }
 
 /*---------------- cart page -----------*/
@@ -1360,37 +1383,13 @@ input:focus{
 
 
 
-@media only screen and (max-width: 600px){
-  .cart-info p{
-      display: none;
-  }
 
-  .tabletienda{
-      width: 100%;
-      border-collapse: collapse;
-  }
+/* Smartphones (portrait & landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 
-  
   td{
-    font-size: 14px;
+    font-size: 25px;
   }
-
-}
-
-@media only screen and (max-width: 400px){
-
-  
-  td{
-    font-size: 20px;
-  }
-
-}
-
-@media only screen and (max-width: 320px){
-
-  
-  td{
-    font-size: 20px;
-  }
-
 }
