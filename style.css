@@ -1305,15 +1305,7 @@ input:focus{
       line-height: 22px;
   }
 
-  td{
-    padding: 15px;
-    text-align: left;
-    vertical-align:middle;
-    font-weight: 300;
-    font-size: 32px;
-    color: rgb(43, 43, 43);
-    border-bottom: solid 1px rgba(255,255,255,0.1);
-  }
+
 }
 
 /*---------------- cart page -----------*/
@@ -1389,7 +1381,10 @@ input:focus{
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 
+ 
   td{
-    font-size: 20px;
-  }
+    font-size: 20px; }
+
+
+
 }
